@@ -179,10 +179,51 @@ section {
 
 #form-section {
 	background: rgb(229, 229, 229);
+	font-size: 14px;
+	letter-spacing: 0.8px;
+	font-weight: 300;
 }
 
 #form-section .heading {
 	text-align: left;
+}
+
+#form-section form {
+	display: flex;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#form-section form input[type="text"] {
+	padding: 12px;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.07);
+    width: 50%;
+}
+
+#form-section form textarea {
+	width: 50%;
+    height: 66px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.07);
+    padding: 12px;
+    margin-top: 8px;
+}
+
+#form-section form input[type="radio"], #form-section form input[type="checkbox"] {
+    margin-right: 6px;
+    margin-left: 16px;
+}
+
+#form-section form select {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 10px;
+    width: 40%;
 }
 
 #address-section .heading {
