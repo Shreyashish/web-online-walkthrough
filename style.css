@@ -70,18 +70,20 @@ section {
 	font-size: 48px;
 	letter-spacing: 0.6px;
 	text-align: center;
-	font-weight: 300;
     padding-bottom: 32px;
+    color: #4a4a4a;
+    font-weight: 500;
 }
 
 #about-us p {
-	font-size: 21px;
-    font-weight: 100;
-    width: 70%;
+	width: 70%;
     margin: 0 auto;
+    font-size: 15px;
+    color: #959595;
+    font-weight: 400;
+    letter-spacing: 0.43px;
     text-align: center;
-    color: rgb(146, 146, 146);
-    letter-spacing: 0.4px;
+    line-height: 26px;
 }
 
 #features .feature-blocks {
